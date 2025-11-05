@@ -1,24 +1,23 @@
 class Tile:
-    def __init__(self,type:str, money: int):
+    def __init__(self,type:str, name:str):
         self.type=type
-        self.money=money
+        self.name=name
         self.availble=None
         self.payment=None
 
 class PropertyTile(Tile):
     def __init__(self,type,money, name ,city,price,rent):
-        super().__init__(type,money)
-        self.name=name
+        super().__init__(type,money,name)
         self.city=city
         self.price=price
         self.rent=rent
         self.owner=None
 
-class RailTile(Tile):
+class RailTile(PropertyTile):
     pass
 class BonusTile(Tile):
-    def update_money(self):
-        self.money+=200
+    def update_money(self,money):
+        money+=200
 class TaxTile(Tile):
-    def update_money(self):
-        self.money-=200
+    def update_money(self,money):
+        money-=200
