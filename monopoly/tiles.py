@@ -21,3 +21,8 @@ class BonusTile(Tile):
 class TaxTile(Tile):
     def update_money(self,money):
         money-=200
+        print(money)
+class JailTile(Tile):
+    pass
+class GoToJailTile(Tile):
+    pass
