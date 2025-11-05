@@ -1,3 +1,4 @@
+from monopoly.game import run_game
 from monopoly.player import Player
 from monopoly.tiles import BonusTile, TaxTile
 from monopoly.dice import Dice
@@ -10,5 +11,7 @@ from monopoly.board import Board
 # print(a.board[a.location])
 # a=Player("david",12,450)
 # a.movement()
-cube=Dice
-print(cube.Throwing_a_die())
+# cube=Dice
+# print(cube.Throwing_a_die())
+if __name__=="__main__":
+    run_game()
