@@ -11,3 +11,4 @@ class Board:
         self.location+=self.step
         if self.location>40:
             self.location-=40
+        print(self.location)

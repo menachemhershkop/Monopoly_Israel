@@ -63,4 +63,4 @@ tiles_data = [
     {"name": "Rabbi meir bel h'nes", "type": "property", "price": 400, "rent": 160, "city": "Tveria"},
     {"name": "Lido", "type": "property", "price": 400, "rent": 160, "city": "Tveria"},
 ]
-print(len(tiles_data))
+# print(len(tiles_data))
