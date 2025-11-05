@@ -1,6 +1,6 @@
 from monopoly.player import Player
 from monopoly.tiles import BonusTile, TaxTile
-
+from monopoly.dice import Dice
 from monopoly.board import Board
 
 # a=Board(5,12)
@@ -8,6 +8,7 @@ from monopoly.board import Board
 # a.movement()
 # print(a.location)
 # print(a.board[a.location])
-a=Player("david",12,450)
-a.movement()
-print(a.location)
+# a=Player("david",12,450)
+# a.movement()
+cube=Dice
+print(cube.Throwing_a_die())
