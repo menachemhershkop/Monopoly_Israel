@@ -11,7 +11,7 @@ def run_game():
     player2=Player("computer",0,1500)
     cube=Dice
     while step:
-        player1.location=board.movement(cube.Throwing_a_die())
+        player1.movement(cube.Throwing_a_die())
         print(player1.location)
         break
 

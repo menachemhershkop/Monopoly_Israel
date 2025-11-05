@@ -12,10 +12,9 @@ class Player:
         self.assets.append(name)
     def get_money(self,amount):
         self.money+=amount
-    def movement(self):
+    def movement(self,step):
         # step=Dice
-        move=Board(self.location,12)
-        self.location=move.movement()
+        self.location=Board().movement(step)
     def buy(self, name,price):
         buy=input("Are you want to buy this property? ")
         if buy == "yes":
