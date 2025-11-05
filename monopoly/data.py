@@ -49,5 +49,18 @@ tiles_data = [
 
     {"name": "East Train Station", "type": "property", "price": 200, "rent": 50, "city": None},
     {"name": "Bonus", "type": "bonus", "amount": 50, "city": None},
-    {"name": "End", "type": "end", "city": None}
+
+    # tzfat
+    {"name": "Rakefet Hotel", "type": "property", "price": 360, "rent": 140, "city": "Tzfat"},
+    {"name": "Central station", "type": "property", "price": 380, "rent": 150, "city": "Tzfat"},
+    {"name": "Mikve Hari", "type": "property", "price": 400, "rent": 160, "city": "Tzfat"},
+    {"name": "Pizza Yerushlim", "type": "property", "price": 400, "rent": 160, "city": "Tzfat"},
+
+
+    #Tveria
+    {"name": "Kineret hotel", "type": "property", "price": 360, "rent": 140, "city": "Tveria"},
+    {"name": "Kever Hrambm", "type": "property", "price": 380, "rent": 150, "city": "Tveria"},
+    {"name": "Rabbi meir bel h'nes", "type": "property", "price": 400, "rent": 160, "city": "Tveria"},
+    {"name": "Lido", "type": "property", "price": 400, "rent": 160, "city": "Tveria"},
 ]
+print(len(tiles_data))
