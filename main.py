@@ -1,2 +1,9 @@
 from monopoly.tiles import BonusTile, TaxTile
 
+from monopoly.board import Board
+
+a=Board(5,12)
+print(a.board[a.location])
+a.movement()
+print(a.location)
+print(a.board[a.location])
